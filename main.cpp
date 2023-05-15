@@ -1,6 +1,5 @@
 #include <iostream>
-
-float add(float a, float b);
+#include "Adder/adder.h"
 
 int main() {
     std::cout << "Hey Zeus!" << std::endl;

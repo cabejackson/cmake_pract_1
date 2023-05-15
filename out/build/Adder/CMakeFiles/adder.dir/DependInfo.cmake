@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/main.cpp" "CMakeFiles/OLAS.dir/main.cpp.o" "gcc" "CMakeFiles/OLAS.dir/main.cpp.o.d"
+  "/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/Adder/adder.cpp" "Adder/CMakeFiles/adder.dir/adder.cpp.o" "gcc" "Adder/CMakeFiles/adder.dir/adder.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

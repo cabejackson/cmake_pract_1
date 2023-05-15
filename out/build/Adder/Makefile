@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build/CMakeFiles /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build//CMakeFiles/progress.marks
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
+	cd /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build && $(CMAKE_COMMAND) -E cmake_progress_start /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build/CMakeFiles /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build/Adder//CMakeFiles/progress.marks
+	cd /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
+	cd /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,68 +103,56 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 preinstall
+	cd /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
-#=============================================================================
-# Target rules for targets named OLAS
+# Convenience name for target.
+Adder/CMakeFiles/adder.dir/rule:
+	cd /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 Adder/CMakeFiles/adder.dir/rule
+.PHONY : Adder/CMakeFiles/adder.dir/rule
 
-# Build rule for target.
-OLAS: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 OLAS
-.PHONY : OLAS
-
-# fast build rule for target.
-OLAS/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLAS.dir/build.make CMakeFiles/OLAS.dir/build
-.PHONY : OLAS/fast
-
-#=============================================================================
-# Target rules for targets named adder
-
-# Build rule for target.
-adder: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 adder
+# Convenience name for target.
+adder: Adder/CMakeFiles/adder.dir/rule
 .PHONY : adder
 
 # fast build rule for target.
 adder/fast:
-	$(MAKE) $(MAKESILENT) -f Adder/CMakeFiles/adder.dir/build.make Adder/CMakeFiles/adder.dir/build
+	cd /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build && $(MAKE) $(MAKESILENT) -f Adder/CMakeFiles/adder.dir/build.make Adder/CMakeFiles/adder.dir/build
 .PHONY : adder/fast
 
-main.o: main.cpp.o
-.PHONY : main.o
+adder.o: adder.cpp.o
+.PHONY : adder.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLAS.dir/build.make CMakeFiles/OLAS.dir/main.cpp.o
-.PHONY : main.cpp.o
+adder.cpp.o:
+	cd /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build && $(MAKE) $(MAKESILENT) -f Adder/CMakeFiles/adder.dir/build.make Adder/CMakeFiles/adder.dir/adder.cpp.o
+.PHONY : adder.cpp.o
 
-main.i: main.cpp.i
-.PHONY : main.i
+adder.i: adder.cpp.i
+.PHONY : adder.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLAS.dir/build.make CMakeFiles/OLAS.dir/main.cpp.i
-.PHONY : main.cpp.i
+adder.cpp.i:
+	cd /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build && $(MAKE) $(MAKESILENT) -f Adder/CMakeFiles/adder.dir/build.make Adder/CMakeFiles/adder.dir/adder.cpp.i
+.PHONY : adder.cpp.i
 
-main.s: main.cpp.s
-.PHONY : main.s
+adder.s: adder.cpp.s
+.PHONY : adder.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLAS.dir/build.make CMakeFiles/OLAS.dir/main.cpp.s
-.PHONY : main.cpp.s
+adder.cpp.s:
+	cd /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build && $(MAKE) $(MAKESILENT) -f Adder/CMakeFiles/adder.dir/build.make Adder/CMakeFiles/adder.dir/adder.cpp.s
+.PHONY : adder.cpp.s
 
 # Help Target
 help:
@@ -174,11 +162,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... OLAS"
 	@echo "... adder"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... adder.o"
+	@echo "... adder.i"
+	@echo "... adder.s"
 .PHONY : help
 
 
@@ -190,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	$(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,6 +1,4 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OLAS.dir/adder.cpp.o"
-  "CMakeFiles/OLAS.dir/adder.cpp.o.d"
   "CMakeFiles/OLAS.dir/main.cpp.o"
   "CMakeFiles/OLAS.dir/main.cpp.o.d"
   "OLAS"

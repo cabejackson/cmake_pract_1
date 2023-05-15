@@ -1,3 +1,6 @@
 /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build/CMakeFiles/OLAS.dir
 /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build/CMakeFiles/edit_cache.dir
 /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build/CMakeFiles/rebuild_cache.dir
+/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build/Adder/CMakeFiles/adder.dir
+/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build/Adder/CMakeFiles/edit_cache.dir
+/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build/Adder/CMakeFiles/rebuild_cache.dir
