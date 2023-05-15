@@ -129,6 +129,30 @@ OLAS/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLAS.dir/build.make CMakeFiles/OLAS.dir/build
 .PHONY : OLAS/fast
 
+adder.o: adder.cpp.o
+.PHONY : adder.o
+
+# target to build an object file
+adder.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLAS.dir/build.make CMakeFiles/OLAS.dir/adder.cpp.o
+.PHONY : adder.cpp.o
+
+adder.i: adder.cpp.i
+.PHONY : adder.i
+
+# target to preprocess a source file
+adder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLAS.dir/build.make CMakeFiles/OLAS.dir/adder.cpp.i
+.PHONY : adder.cpp.i
+
+adder.s: adder.cpp.s
+.PHONY : adder.s
+
+# target to generate assembly for a file
+adder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/OLAS.dir/build.make CMakeFiles/OLAS.dir/adder.cpp.s
+.PHONY : adder.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -162,6 +186,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... OLAS"
+	@echo "... adder.o"
+	@echo "... adder.i"
+	@echo "... adder.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

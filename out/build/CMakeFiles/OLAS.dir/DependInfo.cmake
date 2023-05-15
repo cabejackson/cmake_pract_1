@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/adder.cpp" "CMakeFiles/OLAS.dir/adder.cpp.o" "gcc" "CMakeFiles/OLAS.dir/adder.cpp.o.d"
   "/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/main.cpp" "CMakeFiles/OLAS.dir/main.cpp.o" "gcc" "CMakeFiles/OLAS.dir/main.cpp.o.d"
   )
 
