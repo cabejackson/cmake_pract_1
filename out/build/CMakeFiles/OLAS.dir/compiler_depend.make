@@ -731,8 +731,18 @@ CMakeFiles/OLAS.dir/main.cpp.o: /Users/cabejackson/Documents/projs/learning/cmak
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsblkcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
+  /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/Adder/adder.h \
+  /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/external/glfw/include/GLFW/glfw3.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/os/availability.h
 
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/os/availability.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h:
 
@@ -891,6 +901,8 @@ CMakeFiles/OLAS.dir/main.cpp.o: /Users/cabejackson/Documents/projs/learning/cmak
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_for_each_n.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_find_if_not.h:
+
+/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/external/glfw/include/GLFW/glfw3.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/ranges_find_first_of.h:
 
@@ -1226,6 +1238,8 @@ CMakeFiles/OLAS.dir/main.cpp.o: /Users/cabejackson/Documents/projs/learning/cmak
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/_limits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__memory/ranges_construct_at.h:
@@ -1336,6 +1350,8 @@ CMakeFiles/OLAS.dir/main.cpp.o: /Users/cabejackson/Documents/projs/learning/cmak
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__ranges/access.h:
 
+/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/Adder/adder.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__algorithm/count.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__iterator/prev.h:
@@ -1373,6 +1389,8 @@ CMakeFiles/OLAS.dir/main.cpp.o: /Users/cabejackson/Documents/projs/learning/cmak
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/arm/arch.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__functional/unwrap_ref.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/libkern/_OSByteOrder.h:
 
