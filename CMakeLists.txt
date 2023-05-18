@@ -1,10 +1,26 @@
 cmake_minimum_required(VERSION 3.26.3)
 
-project(OLAS)
+project(OLAS VERSION 1.0)
+
+
+# adder use logic
+option(USE_ADDER "A simple library for adding 2 floats." ON)
+
+if(USE_ADDER)
+    add_subdirectory(Adder)
+
+    list(APPEND EXTRA_LIB_DIRS Adder)
+    list(APPEND EXTRA_INCLUDE_DIRS "${PROJECT_SOURCE_DIR}/Adder")
+
+    list(APPEND EXTRA_LINKS adder)
+
+endif()
+
+configure_file(OLASConfig.h.in OLASConfig.h)
 
 add_executable(${PROJECT_NAME} main.cpp)
 
-add_subdirectory(Adder)
+target_include_directories(${PROJECT_NAME} PUBLIC ${PROJECT_BINARY_DIR})
 
 #               DOWNLOAD ALL THE SUBMODULES
 find_package(Git QUIET)
@@ -13,7 +29,7 @@ if(GIT_FOUND AND EXISTS "${PROJECT_SOURCE_DIR}/.git")
     option(GIT_SUBMODULE "Check submodules during build" ON)
     if(GIT_SUBMODULE)
         message(STATUS "Submodule update")
-        execute_process(COMMMAND ${GIT_EXECUTABLE} submodule update --init --recursive
+        execute_process(COMMAND ${GIT_EXECUTABLE} submodule update --init --recursive
                         WORKING_DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR}
                         RESULT_VARIABLE GIT_SUBMOD_RESULT)
         if(NOT GIT_SUBMOD_RESULT EQUAL "0")
@@ -31,10 +47,10 @@ endif()
 add_subdirectory(external/glfw)
 
 target_include_directories(${PROJECT_NAME} 
-    PUBLIC Adder 
     PUBLIC external/glfw/include
+    ${EXTRA_INCLUDE_DIRS}
 )
 
-target_link_directories(${PROJECT_NAME} PRIVATE Adder PRIVATE external/glfw/src)
+target_link_directories(${PROJECT_NAME} PRIVATE external/glfw/src ${EXTRA_LIB_DIRS})
 
-target_link_libraries(${PROJECT_NAME} adder glfw)
+target_link_libraries(${PROJECT_NAME} glfw ${EXTRA_LINKS})

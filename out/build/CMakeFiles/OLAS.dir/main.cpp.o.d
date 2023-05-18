@@ -730,9 +730,10 @@ CMakeFiles/OLAS.dir/main.cpp.o: \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/sys/_types/_fsfilcnt_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/_types/_nl_item.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/c++/v1/__bsd_locale_defaults.h \
-  /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/Adder/adder.h \
   /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/external/glfw/include/GLFW/glfw3.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gl.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/gltypes.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/System/Library/Frameworks/OpenGL.framework/Headers/OpenGLAvailability.h \
-  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/os/availability.h
+  /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk/usr/include/os/availability.h \
+  /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build/OLASConfig.h \
+  /Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/Adder/adder.h

@@ -9,6 +9,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
   "/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/Adder/CMakeLists.txt"
   "/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/CMakeLists.txt"
+  "/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/OLASConfig.h.in"
   "/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/external/glfw/CMake/cmake_uninstall.cmake.in"
   "/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/external/glfw/CMake/glfw3.pc.in"
   "/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/external/glfw/CMake/glfw3Config.cmake.in"
@@ -36,6 +37,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
   "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/Clang.cmake"
   "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/Compiler/GNU.cmake"
+  "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/FindGit.cmake"
   "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/FindPackageHandleStandardArgs.cmake"
   "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/FindPackageMessage.cmake"
   "/opt/homebrew/Cellar/cmake/3.26.3/share/cmake/Modules/FindThreads.cmake"
@@ -60,6 +62,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+  "OLASConfig.h"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   "Adder/CMakeFiles/CMakeDirectoryInformation.cmake"
   "external/glfw/src/glfw3Config.cmake"

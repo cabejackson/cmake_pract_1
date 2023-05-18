@@ -4,7 +4,7 @@
 # compile CXX with /Library/Developer/CommandLineTools/usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/Adder -I/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/external/glfw/include
+CXX_INCLUDES = -I/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build -I/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/external/glfw/include -I/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/Adder
 
 CXX_FLAGSarm64 =  -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX13.3.sdk
 
