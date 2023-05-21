@@ -47,6 +47,24 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build/external/glfw/cmake_install.cmake")
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build/OLAS")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/OLAS" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/OLAS")
+    execute_process(COMMAND /usr/bin/install_name_tool
+      -delete_rpath "/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/external/glfw/src"
+      -delete_rpath "/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/Adder"
+      "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/OLAS")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/Library/Developer/CommandLineTools/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/OLAS")
+    endif()
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES "/Users/cabejackson/Documents/projs/learning/cmake_pract/OurLordAndSavior/out/build/OLASConfig.h")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")
 else()
